@@ -55,7 +55,7 @@ function App() {
               <small>
                 &copy; Copyright 2020-
                 {new Date().getFullYear().toString().slice(2)},{" "}
-                <a href="https://github.com/sid221/">Sudhanshu Chaurasia</a>
+                <a href="https://github.com/webgigg/">Web Gig</a>
               </small>
             </h4>
           </footer>

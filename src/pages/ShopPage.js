@@ -46,12 +46,12 @@ const ProductCard = ({ name, id, desc, image, price }) => {
           {checkItemInCart.length === 0 ? (
             <button onClick={handleAddItemInCart}>Add to Cart</button>
           ) : (
-            <>
-              <button onClick={incrementItem} className="cart-item-action-btn">
-                <img src="/static/icons/plus.svg" alt="+" />
-              </button>
+            <>              
               <button onClick={decrementItem} className="cart-item-action-btn">
                 <img src="/static/icons/minus.svg" alt="-" />
+              </button>
+              <button onClick={incrementItem} className="cart-item-action-btn">
+                <img src="/static/icons/plus.svg" alt="+" />
               </button>
             </>
           )}
